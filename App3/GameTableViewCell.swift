@@ -19,5 +19,6 @@ class GameTableViewCell: UITableViewCell {
     }
     func render(game: Game) {
         title.text = game.title
+        thumbnail.load(url: game.thumbnail)
     }
 }

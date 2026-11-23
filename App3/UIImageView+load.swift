@@ -5,6 +5,8 @@
 //  Created by Turno Mananas on 23/11/2026.
 //
 
+import UIKit
+
 extension UIImageView {
     func load(url: URL) {
         DispatchQueue.global().async { [weak self] in
@@ -17,7 +19,9 @@ extension UIImageView {
             }
         }
     }
-    func load(string: String) {
-        
+    func load(url: String) {
+        if let url = URL(string: url) {
+            self.load(url: url)
+        }
     }
 }
