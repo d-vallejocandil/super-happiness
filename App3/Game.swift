@@ -9,4 +9,7 @@ struct Game: Codable {
     let id: Int
     let title: String
     let thumbnail: String
+    let short_description: String
+    let genre: String
+    let platform: String
 }

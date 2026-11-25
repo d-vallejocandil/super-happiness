@@ -11,6 +11,9 @@ class GameTableViewCell: UITableViewCell {
     @IBOutlet weak var thumbnail: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var card: UIView!
+    @IBOutlet weak var short_description: UILabel!
+    @IBOutlet weak var genre: UILabel!
+    @IBOutlet weak var platform: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -20,5 +23,8 @@ class GameTableViewCell: UITableViewCell {
     func render(game: Game) {
         title.text = game.title
         thumbnail.load(url: game.thumbnail)
+        short_description.text = game.short_description
+        genre.text = game.genre
+        platform.text = game.platform
     }
 }
