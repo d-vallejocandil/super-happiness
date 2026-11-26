@@ -12,4 +12,12 @@ struct Game: Codable {
     let short_description: String
     let genre: String
     let platform: String
+    let publisher: String
+    let developer: String
+    let description: String?
+    let screenshots: [Screenshot]?
+}
+
+struct Screenshot: Codable {
+    let image: String
 }
