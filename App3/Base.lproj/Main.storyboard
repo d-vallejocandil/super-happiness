@@ -166,7 +166,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="60.333333333333336" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HBK-w0-qtp">
-                                        <rect key="frame" x="0.0" y="0.0" width="60.333333333333336" height="1000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="60.333333333333336" height="281.66666666666669"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tAV-5z-2BI">
                                                 <rect key="frame" x="8" y="8" width="320" height="180"/>
@@ -200,6 +200,7 @@
                                             <constraint firstAttribute="trailing" secondItem="1d9-fz-Pxc" secondAttribute="trailing" constant="8" id="8SY-r5-a3u"/>
                                             <constraint firstAttribute="trailing" secondItem="tAV-5z-2BI" secondAttribute="trailing" constant="8" id="AfX-X6-vGI"/>
                                             <constraint firstItem="zEi-H0-Wnr" firstAttribute="top" secondItem="1d9-fz-Pxc" secondAttribute="bottom" constant="8" id="Au0-Fo-dc4"/>
+                                            <constraint firstAttribute="bottom" secondItem="skM-j7-8MJ" secondAttribute="bottom" constant="8" id="Bfg-hs-GHM"/>
                                             <constraint firstItem="1d9-fz-Pxc" firstAttribute="leading" secondItem="HBK-w0-qtp" secondAttribute="leading" constant="8" id="GUN-I7-FI9"/>
                                             <constraint firstItem="skM-j7-8MJ" firstAttribute="leading" secondItem="HBK-w0-qtp" secondAttribute="leading" constant="8" id="Hep-iA-oFh"/>
                                             <constraint firstItem="skM-j7-8MJ" firstAttribute="leading" secondItem="HBK-w0-qtp" secondAttribute="leading" constant="8" id="QKY-bZ-XxP"/>
@@ -210,7 +211,6 @@
                                             <constraint firstAttribute="trailing" secondItem="zEi-H0-Wnr" secondAttribute="trailing" constant="8" id="khf-i8-u46"/>
                                             <constraint firstItem="tAV-5z-2BI" firstAttribute="top" secondItem="HBK-w0-qtp" secondAttribute="top" constant="8" id="l7h-b9-bdT"/>
                                             <constraint firstItem="skM-j7-8MJ" firstAttribute="leading" secondItem="HBK-w0-qtp" secondAttribute="leading" constant="8" id="nqa-PL-Rfz"/>
-                                            <constraint firstAttribute="height" constant="1000" id="tRy-5O-ZdH"/>
                                         </constraints>
                                     </view>
                                 </subviews>
